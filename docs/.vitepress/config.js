@@ -3,7 +3,7 @@ module.exports = {
   description: "Just playing around.",
 
   themeConfig: {
-    logo: "/public/logo.jpg",
+    logo: "/logo.jpg",
     nav: [{ text: "Getting Started", link: "/getting-started" }],
     sidebar: [
       {

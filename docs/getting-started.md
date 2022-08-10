@@ -1,6 +1,7 @@
 <script setup>
 import { useData } from 'vitepress'
 import BookMarks from '../components/BookMarks.vue'
+import Fixed from '../components/Fixed.vue'
 const { page } = useData()
 </script>
 <!-- <pre>{{ page }}</pre>
@@ -13,3 +14,6 @@ const { page } = useData()
 ::: -->
 
 <BookMarks />
+<Teleport to="body">
+<Fixed />
+</Teleport>

@@ -12,4 +12,8 @@ module.exports = {
       },
     ],
   },
+
+  head: [
+    ["link", { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }],
+  ],
 };

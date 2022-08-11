@@ -9,6 +9,9 @@
     "docs:serve": "vitepress serve docs"
   },
   "devDependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "html-minifier": "^4.0.0",
+    "parse5": "^7.0.0",
     "sass": "^1.54.4",
     "vitepress": "^1.0.0-alpha.4",
     "vue": "^3.2.37"

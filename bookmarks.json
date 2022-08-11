@@ -1,0 +1,431 @@
+[
+  {
+    "category": "JS CSS HTML 相关",
+    "marks": [
+      {
+        "name": "Chrome 调试 | 你不知道的 Chrome 调试技巧",
+        "href": "https://juejin.cn/book/6844733783166418958/section/6844733783187390477",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "HTML 标准",
+        "href": "https://html.spec.whatwg.org/multipage/#toc-browsers",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "MDN 资源网",
+        "href": "https://developer.mozilla.org/zh-CN/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "W3C标准 官方网站",
+        "href": "https://www.w3.org/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "现代 JavaScript 教程",
+        "href": "https://zh.javascript.info/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "What is the difference between ___ and ___ in the front-end development? - HTML DOM",
+        "href": "https://thisthat.dev/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "lydiahallie/javascript-questions: A long list of (advanced) JavaScript questions, and their explanations",
+        "href": "https://github.com/lydiahallie/javascript-questions",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "JavaScript 和 HTML DOM 参考手册",
+        "href": "https://www.runoob.com/jsref/jsref-tutorial.html",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "TypeScript 入门教程",
+        "href": "https://ts.xcatliu.com/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "TC39 标准化JS 官方网站",
+        "href": "https://tc39.es/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Devhints — TL;DR for developer documentation",
+        "href": "https://devhints.io/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "ES6 入门教程 | 通俗易懂的ES6入门教程",
+        "href": "https://es6.ruanyifeng.com/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "JS 代码规范 | 优秀的 JS代码规范",
+        "href": "https://github.com/ryanmcdermott/clean-code-javascript",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Sass: Sass 文档 | Sass 中文网 成熟、稳定、强大的CSS扩展语言",
+        "href": "https://sass.bootcss.com/documentation",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Less 快速入门 | Less.js 中文文档 将CSS赋予了动态语言特性的样式语言",
+        "href": "https://less.bootcss.com/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "CSS实现瀑布流布局（column-count）",
+        "href": "https://chokcoco.github.io/CSS-Inspiration/#/./layout/masonry-layout-colum?id=css-inspiration",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "关于CSS Tricks - CSS Tricks",
+        "href": "https://lhammer.cn/You-need-to-know-css/#/zh-cn/introduce?v=1",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "alienzhou/frontend-tech-list: 📝 Frontend Tech List for Developers 💡",
+        "href": "https://github.com/alienzhou/frontend-tech-list",
+        "imgSrc": "juejin.cn"
+      }
+    ]
+  },
+  {
+    "category": "Vue 相关",
+    "marks": [
+      {
+        "name": "Vue3 最新官方文档",
+        "href": "https://staging-cn.vuejs.org/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Vue2 官方文档",
+        "href": "https://cn.vuejs.org/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Pinia 官方文档",
+        "href": "https://pinia.vuejs.org/introduction.html#basic-example",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Vuex4.0 官方文档",
+        "href": "https://vuex.vuejs.org/zh/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "VueUse 官方文档",
+        "href": "https://vueuse.org/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Axios 官方文档",
+        "href": "http://www.axios-js.com/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Vue Router 官方文档",
+        "href": "https://next.router.vuejs.org/zh/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Vue CLI 脚手架官方文档",
+        "href": "https://cli.vuejs.org/zh/guide/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Home | Vue Devtools",
+        "href": "https://devtools.vuejs.org/",
+        "imgSrc": "juejin.cn"
+      }
+    ]
+  },
+  {
+    "category": "Vue 源码分析",
+    "marks": [
+      {
+        "name": "Vue2源码 | Vue技术内幕",
+        "href": "http://caibaojian.com/vue-design/art/",
+        "imgSrc": "juejin.cn"
+      }
+    ]
+  },
+  {
+    "category": "UI 框架",
+    "marks": [
+      {
+        "name": "modal",
+        "href": "https://2x.antdv.com/components/icon-cn",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Element Plus | 适用Vue3",
+        "href": "https://element-plus.org/zh-CN/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Element | 适用 Vue2",
+        "href": "https://element.eleme.cn/#/zh-CN",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Naive UI: 一个 Vue 3 组件库",
+        "href": "https://www.naiveui.com/zh-CN/os-theme",
+        "imgSrc": "juejin.cn"
+      }
+    ]
+  },
+  {
+    "category": "前端工程化",
+    "marks": [
+      {
+        "name": "Home | Vite 官方中文文档",
+        "href": "https://cn.vitejs.dev/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "webpack | 前端最流行的项目构建工具",
+        "href": "https://webpack.js.org/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Babel | ES6构建转换工具",
+        "href": "https://babeljs.io/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "ESLint | 可组装的JavaScript和JSX检查工具",
+        "href": "https://cn.eslint.org/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Prettier | VSCode 最热门的代码格式化工具 让你写出漂亮的代码",
+        "href": "https://prettier.io/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "深入浅出 Webpack · 深入浅出 Webpack",
+        "href": "https://webpack.wuhaolin.cn/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Chrome架构：仅仅打开了1个页面，为什么有4个进程 | 浏览器工作原理与实践",
+        "href": "https://blog.poetries.top/browser-working-principle/guide/part1/lesson01.html#%E8%BF%9B%E7%A8%8B%E5%92%8C%E7%BA%BF%E7%A8%8B",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Three.js教程",
+        "href": "http://www.webgl3d.cn/Three.js/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "WebGL教程",
+        "href": "http://www.webgl3d.cn/WebGL/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "NPM | 包管理 和 项目构建工具",
+        "href": "https://www.npmjs.com/",
+        "imgSrc": "juejin.cn"
+      }
+    ]
+  },
+  {
+    "category": "Git 相关",
+    "marks": [
+      {
+        "name": "Learn Git Branching",
+        "href": "https://learngitbranching.js.org/?locale=zh_CN",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "GitHub Git 备忘单 - GitHub Cheatsheets",
+        "href": "https://training.github.com/downloads/zh_CN/github-git-cheat-sheet/",
+        "imgSrc": "juejin.cn"
+      }
+    ]
+  },
+  {
+    "category": "学习资源 推荐",
+    "marks": [
+      {
+        "name": "FrontEndGitHub/FrontEndGitHub: GitHub最全的前端资源汇总仓库（包括前端学习、开发资源、数据结构与算法、开发工具、求职面试等）",
+        "href": "https://github.com/FrontEndGitHub/FrontEndGitHub",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "ruanyf/weekly: 科技爱好者周刊，每周五发布",
+        "href": "https://github.com/ruanyf/weekly",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "tnfe/TNT-Weekly: 每周为您推荐国内外前端领域最新的优秀文章以及行业进展",
+        "href": "https://github.com/tnfe/TNT-Weekly",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "ProtoTeam/blog: 蚂蚁数据体验技术团队的文章仓库",
+        "href": "https://github.com/ProtoTeam/blog",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "盘点掘金 2021 点赞高达 6000，收藏过万的文章",
+        "href": "https://mp.weixin.qq.com/s/ygpjcpxhqmb9qQKOJdmcFw",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "web全栈体系",
+        "href": "https://hejialianghe.gitee.io/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "前端_前端开发_web前端-InfoQ",
+        "href": "https://www.infoq.cn/topic/33",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "好文章",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "stephentian/33-js-concepts: 每个 JavaScript 工程师都应懂的33个概念 @leonardomso",
+        "href": "https://github.com/stephentian/33-js-concepts",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "30 seconds of code",
+        "href": "https://www.30secondsofcode.org/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "高级前端进阶博文 | 木易杨前端进阶",
+        "href": "https://muyiy.cn/blog/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "ljianshu/Blog: 关注基础知识，打造优质前端博客，公众号[前端工匠]的作者",
+        "href": "https://github.com/ljianshu/Blog",
+        "imgSrc": "juejin.cn"
+      }
+    ]
+  },
+  {
+    "category": "技术社区",
+    "marks": [
+      {
+        "name": "GitHub | 高质量内容创作和分享平台",
+        "href": "https://github.com/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "stackoverflow |一个回答技术问题的网站",
+        "href": "https://stackoverflow.com/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "掘金 | 国内的很多优质前端文章都掘金",
+        "href": "https://juejin.cn/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "博客园 | 一个很纯粹的技术博客平台",
+        "href": "https://www.cnblogs.com/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "知乎 | 很多程序人喜欢泡在知乎",
+        "href": "https://www.zhihu.com/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "CSDN | 老牌社区 程序员必上的一个社区",
+        "href": "https://www.csdn.net/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "v2ex | 程序员分享和探索的社区",
+        "href": "https://www.v2ex.com/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "segmentfault | 低调技术博客社区",
+        "href": "https://segmentfault.com/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Node.js 中文社区 | node专业中文社区",
+        "href": "https://cnodejs.org/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "博客杂志站点 | 一个 web 技术类的博客杂志站点",
+        "href": "https://www.smashingmagazine.com/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "JS 技术的网站 | 每天推出一个JS技巧的网站",
+        "href": "https://www.jstips.co/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "W3Cplus | 推广国内行业的技术博客",
+        "href": "https://www.w3cplus.com/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "印记中文 | 最权威的技术中文文档社区",
+        "href": "https://docschina.org/",
+        "imgSrc": "juejin.cn"
+      }
+    ]
+  },
+  {
+    "category": "工具类网站",
+    "marks": [
+      {
+        "name": "coderutil 程序员盒子,专注于程序员学习编程提效 官网",
+        "href": "https://www.coderutil.com/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Home - SmallDev.tools",
+        "href": "https://smalldev.tools/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "RegExr: Learn, Build, & Test RegEx",
+        "href": "https://regexr.com/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "在线正则表达式测试",
+        "href": "https://tool.oschina.net/regex",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Whistle | 代理抓包工具",
+        "href": "https://wproxy.org/whistle/",
+        "imgSrc": "juejin.cn"
+      },
+      {
+        "name": "Fiddler | 使用人数最多的抓包工具",
+        "href": "https://www.telerik.com/fiddler",
+        "imgSrc": "juejin.cn"
+      }
+    ]
+  },
+  {
+    "category": "其它框架",
+    "marks": [
+      {
+        "name": "Three.js – JavaScript 3D Library",
+        "href": "https://threejs.org/",
+        "imgSrc": "juejin.cn"
+      }
+    ]
+  }
+]

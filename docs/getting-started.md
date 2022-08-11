@@ -1,6 +1,6 @@
 <script setup>
 import { useData } from 'vitepress'
-import BookMarks from '../components/BookMarks.vue'
+import BookMarks from '../components/BookMarks/BookMarks.vue'
 import Fixed from '../components/Fixed.vue'
 const { page } = useData()
 </script>

@@ -4,7 +4,10 @@ module.exports = {
 
   themeConfig: {
     logo: "/logo.jpg",
-    nav: [{ text: "Getting Started", link: "/getting-started" }],
+    nav: [
+      { text: "Getting Started", link: "/getting-started" },
+      { text: "Bookmarks", link: "/bookmarks" },
+    ],
     sidebar: [
       {
         text: "Guide",
@@ -15,6 +18,6 @@ module.exports = {
 
   head: [
     ["link", { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }],
-    ["script", { src: "/test.js", type: "module" }],
+    // ["script", { src: "/test.js", type: "module" }],
   ],
 };

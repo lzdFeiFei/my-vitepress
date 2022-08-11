@@ -1,19 +1,26 @@
 <template>
-  <div>BookMarks</div>
   <div class="marks-card--wrapper">
     <div
       class="marks-card--content"
-      v-for="(item, index) in marks"
+      v-for="(item, index) in props.marks"
       :key="index"
-      @click="openMarks(item.link)"
+      @click="openMarks(item.href)"
     >
       <img class="web-logo" :src="generateSrc(item.imgSrc)" alt="" />
-      <div @click="openMarks(item.link)">{{ item.name }}</div>
+      <div @click="openMarks(item.href)">{{ item.name }}</div>
     </div>
   </div>
 </template>
 
 <script setup>
+const props = defineProps({
+  marks: {
+    type: Object,
+    required: true,
+    default: () => [],
+  },
+});
+
 const GET_LOGP_URL = "https://api.iowen.cn/favicon/";
 const PNG_SUFFIX = ".png";
 const marks = [
@@ -45,6 +52,7 @@ const openMarks = (link) => {
 <style lang="scss" scoped>
 .marks-card--wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .marks-card--content {

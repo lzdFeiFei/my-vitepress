@@ -7,7 +7,7 @@
       @click="openMarks(item.href)"
     >
       <img class="web-logo" :src="generateSrc(item.imgSrc)" alt="" />
-      <div @click="openMarks(item.href)">{{ item.name }}</div>
+      <div class="name" @click="openMarks(item.href)">{{ item.name }}</div>
     </div>
   </div>
 </template>
@@ -23,23 +23,23 @@ const props = defineProps({
 
 const GET_LOGP_URL = "https://api.iowen.cn/favicon/";
 const PNG_SUFFIX = ".png";
-const marks = [
-  {
-    name: "Chrome 调试",
-    link: "https://juejin.cn/book/6844733783166418958/section/6844733783187390477",
-    imgSrc: "juejin.cn",
-  },
-  {
-    name: "HTML 标准",
-    link: "https://html.spec.whatwg.org/",
-    imgSrc: "html.spec.whatwg.org",
-  },
-  {
-    name: "MDN 资源网",
-    link: "https://developer.mozilla.org/zh-CN/",
-    imgSrc: "developer.mozilla.org",
-  },
-];
+// const marks = [
+//   {
+//     name: "Chrome 调试",
+//     link: "https://juejin.cn/book/6844733783166418958/section/6844733783187390477",
+//     imgSrc: "juejin.cn",
+//   },
+//   {
+//     name: "HTML 标准",
+//     link: "https://html.spec.whatwg.org/",
+//     imgSrc: "html.spec.whatwg.org",
+//   },
+//   {
+//     name: "MDN 资源网",
+//     link: "https://developer.mozilla.org/zh-CN/",
+//     imgSrc: "developer.mozilla.org",
+//   },
+// ];
 
 const generateSrc = (src) => {
   return `${GET_LOGP_URL}${src}${PNG_SUFFIX}`;
@@ -56,10 +56,14 @@ const openMarks = (link) => {
 }
 
 .marks-card--content {
-  width: 200px;
-  height: 100px;
-  margin: 5px;
-  border: 1px solid black;
+  width: 210px;
+  height: 280px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15px);
+  margin: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,7 +71,15 @@ const openMarks = (link) => {
   cursor: pointer;
 }
 .web-logo {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50px;
+}
+
+.name {
+  margin: 0px 12px;
+  position: absolute;
+  top: 120px;
 }
 </style>
